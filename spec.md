@@ -113,7 +113,7 @@ This specification uses the following terms:
 
 Here is an example image JSON file:
 
-```
+```json
 {  
     "created": "2015-10-31T22:22:56.015925234Z",
     "author": "Alyssa P. Hacker &ltalyspdev@example.com&gt",
@@ -667,7 +667,7 @@ metadata schema:
 
 The `repositories` file is a JSON file which describes names/tags:
 
-```
+```json
 {  
     "busybox":{  
         "latest":"5f29f704785248ddb9d06b90a11b5ea36c534865e9035e4022bb2e71d4ecbb9a"
@@ -684,7 +684,7 @@ The `manifest.json` file provides the image JSON for the top-level image, and
 optionally for parent images that this image was derived from. It consists of
 an array of metadata entries:
 
-```
+```json
 [
   {
     "Config": "47bcc53f74dc94b1920f0b34f6036096526296767650f223433fe65c35f149eb.json",
