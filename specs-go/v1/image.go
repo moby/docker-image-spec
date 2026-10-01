@@ -6,8 +6,6 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 
-const DockerOCIImageMediaType = "application/vnd.docker.container.image.v1+json"
-
 // DockerOCIImage is a ocispec.Image extended with Docker specific Config.
 type DockerOCIImage struct {
 	ocispec.Image
